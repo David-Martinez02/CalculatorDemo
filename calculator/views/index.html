@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">  
+
+</head>
+<body>
+    <script src="../public/js/calculator.js"></script> 
+    <br>
+    <br>
+    <br>
+
+    
+    <!--Start of Calculator-->
+    <table class="text-center d-flex justify-content-center">
+        <h1 class="text-center">Online Calculator</h1>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="result">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="clearResult()">C</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="plusMinus()">+/-</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="percentage()">%</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('/')">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('7')">7</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('8')">8</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('9')">9</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('*')">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('4')">4</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('5')">5</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('6')">6</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('1')">1</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('2')">2</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('3')">3</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="buttonNum('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" class="btn btn-primary btntake2" onclick="buttonNum('0')">0</button>
+            </td>
+            <td colspan="2">
+                <button type="button" class="btn btn-primary btntake2" onclick="calculateResult()">=</button>
+            </td>
+        </tr>
+    </table>
+    <!--End of Calculator-->
+
+
+    <!--Bootstrap CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
